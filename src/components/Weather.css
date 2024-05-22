@@ -1,0 +1,104 @@
+/* Weather.css */
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .location h2 {
+    margin: 0 0 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .location span {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .datetext {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .tempstats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tempstats h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .tempstats h3 {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 10px 0 0;
+  }
+  
+  .no-data {
+    font-size: 1.2rem;
+    color: #ff0000;
+  }
+  
